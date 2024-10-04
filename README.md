@@ -2,6 +2,7 @@
 This plugin provides a collection of features to simplify and improve the retrieval of secrets from Bitwarden Secret Manager.
 
 ## Installation
+See [INSTALL.md](INSTALL.md).
 
 ## Usage
 ### bws_get
