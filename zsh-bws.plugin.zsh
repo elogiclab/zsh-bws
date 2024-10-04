@@ -48,7 +48,7 @@ function bws_get() {
       k:=arg_key \
       i:=arg_id ||
     return 1
-    jq -c '.value' -r <(bws_get_full $arg_id $arg_key -o json)
+    bws_get_full $arg_id $arg_key -o json | jq -c '.value' -r
 }
 
 function bws_copy() {
